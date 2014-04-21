@@ -1,0 +1,12 @@
+name := "todolist"
+
+version := "1.0-SNAPSHOT"
+
+libraryDependencies ++= Seq(
+  javaJdbc,
+  javaEbean,
+  cache,
+  "mysql" % "mysql-connector-java" % "5.1.68"
+)     
+
+play.Project.playJavaSettings
